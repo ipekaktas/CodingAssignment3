@@ -1,0 +1,112 @@
+body {
+  font-family: 'Marck Script', cursive;
+  background-image: url('../images/bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #004d00;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Marck Script', cursive;
+  color: #003300;
+  text-align: center;
+}
+
+h3 {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.credit {
+  text-align: center;
+  font-weight: bold;
+}
+
+a {
+  color: #006400;
+  text-decoration: none;
+}
+
+.centered-image {
+  text-align: center;
+  margin: 20px;
+}
+
+figure img {
+  border-radius: 12px;
+}
+
+ul, ol {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  margin: 0 auto 20px auto;
+  text-align: left;
+}
+
+fieldset {
+  margin: 10px auto;
+  padding: 15px;
+  width: 250px;
+  background-color: rgba(255,255,255,0.9);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+input[type="number"] {
+  width: 60px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 1px solid #999;
+  padding: 2px 5px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.wrapper div {
+  flex: 1 1 400px;
+  margin: 10px;
+  padding: 20px;
+  background-color: rgba(240, 255, 240, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+}
+
+.nobullet {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.subhead {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: italic;
+  margin: 10px 0 5px 0;
+  list-style-type: none;
+}
+
+.rate {
+  font-size: 22px;
+  color: #004d00;
+  text-align: center;
+}
+
+footer p {
+  text-align: right;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #003300;
+}
